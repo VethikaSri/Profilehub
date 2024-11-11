@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 77, 128, 0.587);
+}
+
+.flex{
+    display: flex;
+}
+
+
+.container{
+    width: 650px;
+    border: 1px solid white;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    gap: 20px;
+}
+
+
+.profile-picture{
+    width: 100%;
+}
+
+.basic-details{
+    text-align: center;
+}
+
+
+.user-basic{
+    width: 100%;
+    margin-left: 00px;
+}
+
+
+
+
+#fileInput {
+    display: none; 
+}
+
+.img-btns{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+#uploadLabel {
+    width: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(3, 95, 132); 
+    color: white; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    cursor: pointer; 
+    font-size: 12px; 
+    font-weight: bold; 
+    height: 32px; 
+}
+
+#profileImage {
+    width: 300px;
+    height: 300px;
+    object-fit: contain; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+
+
+#saveBtn {
+    width: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(3, 95, 132);
+    color: white; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    font-weight: bold; 
+    height: 32px; 
+    border: none;
+}
+
+
+
+
+
+
+
+
+.user-about{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.content{
+    margin-left: 30px;
+}
+
+
+.btn{
+    position: absolute;
+    right: 20px;
+    background-color: rgba(0, 77, 128, 0.587);
+    color: whitesmoke;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 77, 128, 0.998);
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+.user-basic h2{
+    font-size: 24px;
+}
+
+.user-basic #prof{
+    font-size: 14px;
+    margin-top: -5px;
+    /* margin-left: 5px; */
+    color: rgb(87, 85, 85);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-media{
+    margin-left: 25px;
+}
+
+.social-media h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(3, 95, 132);
+}
+
+.social-media p{
+    font-size: 14px;
+}
+
+.social-media .bi-linkedin{
+    color: rgba(0, 0, 137, 0.831);
+}
+.social-media span{
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+}
+
+
+.section-down{
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.user-about h4, .social-media h4{
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 100px;
+    color: rgb(3, 95, 132);
+}
+
+hr{
+    margin-top: -5px;
+}
+
+.user-about span, .social-media span{
+    height: 30px;
+    color: rgb(3, 95, 132);
+}
+
+.user-about p{
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+.user-about p span{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+.section-down h5{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 600;
+}
+
+.user-about p{
+    font-weight: 600;
+}
+
+
+.logout-btn{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.logout-btn span{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+}

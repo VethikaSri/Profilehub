@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 77, 128, 0.587);
+    color: white;
+}
+
+
+
+
+.container{
+    max-width: 600px;
+    width: 90%;
+    margin: 80px auto;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+/* basic information */
+
+.basic-info{
+    display: flex;
+    align-items:center;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
+.basic-info h2{
+    font-size: 22px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: rgb(2, 54, 88);
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: rgba(0, 77, 128, 0.587);
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color:rgba(0, 77, 128, 0.587);
+}
+
+.flex{
+    display: flex;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+form select{
+    margin-bottom: 10px;
+}
+
+a{
+    color: rgb(11, 11, 81);
+}
+
+.line{
+    flex-grow: 1;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+.social-media, .work-skill{
+    display: flex;
+    align-items:center;
+    margin: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.social-media h2, .work-skill h2{
+    font-size: 22px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: rgb(2, 54, 88);
+}
+
+
+.add-more{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.add-more span{
+    display: flex;
+    align-items: center;
+}
+
+.add-more:hover{
+    transform: scale(1.02);
+}
+
